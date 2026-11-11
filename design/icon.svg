@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C1F1E"/>
+      <stop offset="1" stop-color="#060707"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".16"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".03"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#bg)"/>
+  <rect x="66" y="66" width="892" height="892" rx="206" fill="none" stroke="url(#rim)" stroke-width="4"/>
+  <!-- visor: cantos em colchete -->
+  <g fill="none" stroke="#7CC4A0" stroke-width="44" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M272 382 V300 Q272 272 300 272 H382"/>
+    <path d="M642 272 H724 Q752 272 752 300 V382"/>
+    <path d="M752 642 V724 Q752 752 724 752 H642"/>
+    <path d="M382 752 H300 Q272 752 272 724 V642"/>
+  </g>
+  <!-- linha original (cinza) e traduzida (verde) -->
+  <rect x="372" y="432" width="280" height="44" rx="22" fill="#5E6461"/>
+  <rect x="372" y="548" width="200" height="44" rx="22" fill="#ECEDEC"/>
+</svg>

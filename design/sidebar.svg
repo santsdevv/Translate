@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="328" height="628" viewBox="0 0 164 314">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#151817"/><stop offset="1" stop-color="#030303"/></linearGradient></defs>
+  <rect width="164" height="314" fill="url(#g)"/>
+  <g fill="none" stroke="#7CC4A0" stroke-width="3" stroke-linecap="round">
+    <path d="M28 52 V40 Q28 36 32 36 H44"/><path d="M120 36 H132 Q136 36 136 40 V52"/>
+    <path d="M136 98 V110 Q136 114 132 114 H120"/><path d="M44 114 H32 Q28 114 28 110 V98"/>
+  </g>
+  <rect x="48" y="64" width="62" height="7" rx="3.5" fill="#5E6461"/>
+  <rect x="48" y="80" width="44" height="7" rx="3.5" fill="#ECEDEC"/>
+  <text x="28" y="262" font-family="DejaVu Sans" font-weight="600" font-size="19" fill="#ECEDEC">Translate</text>
+  <text x="28" y="282" font-family="DejaVu Sans" font-size="10" fill="#8A8F8C">Tradutor de tela</text>
+</svg>
